@@ -12,7 +12,7 @@ Provide a backend API server docker environment prototype for Frontend Developer
 
 clone this repository and start coding your API server
 
-`docker-compose up`
+`docker-compose up -d`
 
 now you can access to http://localhost
 
