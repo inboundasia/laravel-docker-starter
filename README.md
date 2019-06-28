@@ -24,14 +24,22 @@ to destroy all container `docker-compose down -v`
 
 # Ports Expose
 
-| Service  | Port |
+| Service | Port |
 |---|---|
-| Nginx  | 80 |
-| MySQL  | 3306 |
-| PHP-fpm  | 9000 |
+| Nginx | 80 |
+| MySQL | 3306 |
+| PHP-fpm | 9000 |
 
 # Core files
 
 * Dockerfile
 * docker-compose.yml
 * docker/nginx
+
+# Deploy and provide prototype
+
+use command `docker-compose push` to deploy to docker registry
+
+you can check the demo repository and see how to provide prototype
+
+https://github.com/inboundasia/laravel-docker-starter-demo
