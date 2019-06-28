@@ -2,7 +2,7 @@ Warning: this project is only for local prototyping, please don't use in product
 
 # Motivation
 
-All source code I found are mounting source code from host folder to container volume.  However what I want is all source code put into container, so I make one by myself.
+All sample projects I found are mounting source code from host folder to container volume.  However what I want is all source code put into container, so I make one by myself.
 
 # Purpose
 
@@ -12,7 +12,7 @@ Provide a backend API server docker environment prototype for Frontend Developer
 
 clone this repository and start coding your API server
 
-`docker-compose up`
+`docker-compose up -d`
 
 now you can access to http://localhost
 
