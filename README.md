@@ -16,9 +16,9 @@ clone this repository and start coding your API server
 
 now you can access to http://localhost
 
-after code changed, run `docker-compose down -v && docker-compose up -d`
+after code changed, run `docker-compose down -v && docker-compose build && docker-compose up -d`
 
-to run migration run `docker-compose php php artisan migrate`
+to run migration run `docker-compose exec php php artisan migrate`
 
 to destroy all container `docker-compose down -v`
 
