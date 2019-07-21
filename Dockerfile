@@ -31,7 +31,9 @@ RUN apt-get update && apt-get install -y \
       pgsql \
       zip \
       opcache
+      
+COPY . /var/www/html
 
-ADD . /var/www/html
+COPY --from=vendor /app/vendor/ /var/www/html/vendor/
 
 RUN chown -R www-data:www-data /var/www/html
